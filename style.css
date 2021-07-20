@@ -10,13 +10,17 @@ h1{
 .first-section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    height: 700px;
+
+}
+.first-section, .second-section, .experience-area{
+    overflow: hidden;
+    height: 600px;
 }
 
 .half-box{
-    max-width:40%;
-    float:left;
-    margin-left:5%;
+    max-width: 40%;
+    float: left;
+    margin-left: 5%;
     padding-left: 2%;
 }
 
@@ -25,21 +29,53 @@ h1{
 }
 
 .half-box img{
-    width:90%;
-    position: center center;
+    width:100%;
 }
 
 .button-submit{
     text-decoration:none;
-    color: white;
-    background-image:linear-gradient(90deg, #FFAD7B, #FF744C);
-    padding:10px 20px;
+    color:white;
+    background-image: linear-gradient(90deg, #FFAD7B, #FF744C);
+    padding: 10px 20px;
     font-weight: 700;
     border-radius: 5px;
 }
 .second-section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
-    height:700px;
     background-position: right;
+}
+.clear{
+    clear: both;
+    height: 80px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: LEFT;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px 5px;
+    height:60%;
+  
+}
+.fs-border, .baby-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg ,orange,blue);
+    border-image-slice: 1;
+    background-color: white;
+}
+.baby-border{
+    border-image: linear-gradient(180deg ,blue, cyan);
+
+}
+.experience-box p{
+    color:gray;
+}
+footer p{
+    text-align: center;
+}
+.experience-area>h2{
+    color:orange;
 }
