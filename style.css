@@ -26,6 +26,7 @@ h1{
 
 .half-box img{
     width:90%;
+    position: center center;
 }
 
 .button-submit{
